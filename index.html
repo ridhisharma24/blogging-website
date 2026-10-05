@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blogging Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>My Blogging Website</h1>
+    <p>Welcome to my personal blog</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#blogs">Blogs</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<main>
+    <section id="create-post">
+    <h2>Create a New Blog</h2>
+
+    <input type="text" id="postTitle" placeholder="Blog Title">
+
+    <input type="text" id="postAuthor" placeholder="Author Name">
+
+    <textarea id="postContent" placeholder="Write your blog..."></textarea>
+    <input type="file" id="postImage" accept="image/*">
+
+    <button id="addPostBtn">Add Blog</button>
+</section>
+
+    <div class="post" id="blogs">
+        <h2>My First Blog</h2>
+        <p>Welcome to my first blogging website!</p>
+        <button id="readMoreBtn">Read More</button>
+
+<p id="moreText" style="display: none;">
+    This is my first blog post. I am learning web development
+    and creating my own blogging website using HTML, CSS and JavaScript.
+</p>
+    </div>
+
+    <div class="post">
+        <h2>My College Life</h2>
+        <p>College is a journey full of learning, experiences and memories.</p>
+        <button>Read More</button>
+    </div>
+
+    <div class="post">
+        <h2>Technology and AI</h2>
+        <p>Artificial Intelligence is changing the way we learn and work.</p>
+        <button>Read More</button>
+    </div>
+
+</main>
+
+<footer>
+    <p>© 2026 My Blogging Website</p>
+</footer>
+<script src="script.js"></script>
+<!-- your existing blog sections are above -->
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I am a college student interested in technology,
+            Artificial Intelligence and web development.
+            This website is my blogging project.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>Email: myemail@example.com</p>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+</body>
+</html>
+</body>
+</html>
